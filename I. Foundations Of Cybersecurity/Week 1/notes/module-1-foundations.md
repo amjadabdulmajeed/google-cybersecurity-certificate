@@ -22,15 +22,25 @@
 - Protecting the Internet Space (Cloud Security): Securing data stored online.
 - Making Things Automatic (Programming): Using code to do repetitive security tasks.
 
-## Core Security Analyst Skills
+## Complete Security Analyst Skills Map
 
-### Transferable
-- Communication: explaining threats to non-technical people
-- Collaboration: working with engineers, forensic investigators, managers
-- Analysis: evaluating complex scenarios and making recommendations
-- Problem-solving: diagnosing and fixing security issues
+### Transferable Skills
+- Communication: explain technical issues to non-technical people
+- Problem-solving: structured approach - attempt, research, resolve
+- Time management: prioritize under pressure (highest risk first)
+- Growth mindset: technology evolves, learning never stops
+- Diverse perspectives: different backgrounds = better solutions
+- Collaboration: work with engineers, forensic investigators, managers
 
-### Technical
-- Programming (Python, SQL): automating tasks and analyzing data
-- SIEM tools: monitoring and alerting on suspicious activity
-- Digital Forensics: investigating incidents after they occur
+### Technical Skills
+- Programming (Python, SQL): automate tasks, analyze data
+- SIEM: collects all logs network-wide, analyses in real time,
+  alerts analyst → like reviewing all security camera footage
+- IDS: monitors live network traffic, triggers immediate alerts
+  → like a motion sensor alarm
+- Threat landscape knowledge: stay current on new attack methods
+- Incident response: follow procedures when attack occurs
+
+### Key difference: SIEM vs IDS
+SIEM = what happened (historical + real time analysis)
+IDS  = something is happening RIGHT NOW (immediate detection)
