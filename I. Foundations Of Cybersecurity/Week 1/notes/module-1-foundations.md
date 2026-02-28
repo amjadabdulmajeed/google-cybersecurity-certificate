@@ -21,3 +21,16 @@
 - Protecting Connections (Network Security): Securing the internal network.
 - Protecting the Internet Space (Cloud Security): Securing data stored online.
 - Making Things Automatic (Programming): Using code to do repetitive security tasks.
+
+## Core Security Analyst Skills
+
+### Transferable
+- Communication: explaining threats to non-technical people
+- Collaboration: working with engineers, forensic investigators, managers
+- Analysis: evaluating complex scenarios and making recommendations
+- Problem-solving: diagnosing and fixing security issues
+
+### Technical
+- Programming (Python, SQL): automating tasks and analyzing data
+- SIEM tools: monitoring and alerting on suspicious activity
+- Digital Forensics: investigating incidents after they occur
