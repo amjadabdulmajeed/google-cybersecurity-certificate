@@ -44,3 +44,18 @@
 ### Key difference: SIEM vs IDS
 SIEM = what happened (historical + real time analysis)
 IDS  = something is happening RIGHT NOW (immediate detection)
+
+### SIEM vs IDS — My Own Analogies
+
+SIEM = like a company's complete activity records system
+       stores + analyses everything across all devices
+       alerts on suspicious patterns found in the data
+
+IDS  = like a security guard watching live cameras 24/7
+       monitors network traffic in real time
+       immediately alerts when something suspicious 
+       is happening RIGHT NOW
+
+Key difference:
+SIEM = analyses what happened (broad, historical + real time)
+IDS  = detects what is happening right now (immediate, focused)
