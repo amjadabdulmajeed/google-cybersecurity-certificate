@@ -85,3 +85,13 @@ GDPR → protects European citizens' data
 HIPAA → protects US medical/health data
 PCI DSS → protects payment card data
 Violation = massive fines
+
+## The Security Response Chain
+
+IDS (detects) → IPS (blocks automatically)
+→ Security Analyst (investigates using SIEM)
+→ Two paths:
+   Active attack → contain and stop it
+   Past attack → Digital Forensics investigates
+
+Key insight: Tools detect. Humans decide.
