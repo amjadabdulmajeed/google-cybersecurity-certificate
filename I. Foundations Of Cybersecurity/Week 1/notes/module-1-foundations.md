@@ -59,3 +59,29 @@ IDS  = like a security guard watching live cameras 24/7
 Key difference:
 SIEM = analyses what happened (broad, historical + real time)
 IDS  = detects what is happening right now (immediate, focused)
+
+## IDS vs IPS — Critical Difference
+IDS (Intrusion Detection System)
+→ Monitors network traffic
+→ ALERTS analyst when suspicious activity found
+→ Does NOT block anything
+
+IPS (Intrusion Prevention System)  
+→ Monitors network traffic
+→ Automatically BLOCKS suspicious activity
+→ AND alerts analyst
+
+Memory trick:
+Detection = tells you
+Prevention = stops it
+
+## Identity Theft
+Primary concern when PII/SPII is stolen
+→ Criminal impersonates victim for financial gain
+→ Can take years to recover from
+
+## Key Compliance Laws
+GDPR → protects European citizens' data
+HIPAA → protects US medical/health data
+PCI DSS → protects payment card data
+Violation = massive fines
