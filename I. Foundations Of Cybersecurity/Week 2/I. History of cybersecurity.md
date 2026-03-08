@@ -140,3 +140,30 @@ Morris Worm 1988 → Availability
 LoveLetter 2000 → Confidentiality ← NOT Availability
 Equifax 2017 → Confidentiality
 Reason: valuable data moved online between 1988-2000
+
+## Why Organizations Fail at Basic Security
+
+Root cause: Misaligned incentives
+
+Security team → wants to fix vulnerabilities
+Business team → wants to ship products on time
+Management → wants quarterly profits
+
+Result: security gets deprioritized repeatedly
+until a breach makes it impossible to ignore
+
+### The Solution: CISO Role
+Chief Information Security Officer
+→ Sits at executive level
+→ Translates security risk into business language
+→ Aligns security with business incentives
+
+### How Analysts Should Communicate Risk:
+❌ Technical: "CVE-2024-1234, CVSS score 9.8"
+✅ Business: "This vulnerability could expose
+   customer data and cost $575M in fines — 
+   we can fix it in 48 hours"
+
+Key insight:
+Technical problems → technical solutions
+Organizational problems → communication + alignment
