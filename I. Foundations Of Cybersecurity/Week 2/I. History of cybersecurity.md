@@ -109,3 +109,34 @@ Types:
 1986-1988 → Availability attacks (nothing to steal)
 2000-present → Confidentiality attacks (valuable data online)
 Reason: internet growth = more valuable digital data
+
+## Key Corrections and Additions
+
+### Social Engineering Defense
+Only defense = security awareness training
+Technical tools CANNOT stop social engineering
+because it bypasses humans, not systems
+
+### Exponential Spread (LoveLetter)
+Person A → emails 100 contacts
+100 contacts → each emails 100 more
+= millions infected in hours
+LoveLetter spread FASTER than Morris Worm
+despite Morris Worm needing no human action
+Reason: exponential growth via contact lists
+
+### Vulnerability Management (Equifax lesson)
+4 steps:
+1. Find vulnerabilities
+2. Prioritize by risk level
+3. Patch before attackers exploit them
+4. Verify patches worked
+Knowing risk ≠ managing risk
+Unpatched known vulnerability = worst kind
+
+### CIA Attack Shift — Corrected
+Brain Virus 1986 → Availability
+Morris Worm 1988 → Availability
+LoveLetter 2000 → Confidentiality ← NOT Availability
+Equifax 2017 → Confidentiality
+Reason: valuable data moved online between 1988-2000
