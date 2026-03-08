@@ -47,3 +47,25 @@ Golden rule:
 Struggle first → then ask for help
 The struggle IS the learning
 
+## Why Early Attacks Targeted Availability
+
+1986-1988 context:
+→ Internet was tiny (universities + government only)
+→ No valuable personal/financial data stored digitally
+→ Nothing worth stealing (Confidentiality)
+→ Nothing worth tampering with (Integrity)
+→ Only possible impact = operational disruption
+
+Therefore: early attacks targeted Availability only
+
+## The Evolution Pattern:
+More valuable data online
+→ more CIA components under attack
+→ more sophisticated attacks
+→ more sophisticated defenders needed
+
+Timeline:
+1986-1988 → Availability attacks only
+1990s-2000s → Confidentiality attacks emerge
+2000s-2010s → All three CIA components targeted
+2010s-now → Ransomware attacks all three simultaneously
