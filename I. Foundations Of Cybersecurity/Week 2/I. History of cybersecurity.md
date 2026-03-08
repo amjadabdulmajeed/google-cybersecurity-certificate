@@ -33,3 +33,17 @@ Computer Emergency Response Teams
 ### Pattern Noticed:
 Early attacks → primarily targeted Availability
 Spread because → no detection controls existed yet
+
+## What To Do When I'm Stuck
+
+1. Wait 2 minutes — sit with the question
+2. Try anyway, even badly — write something
+3. Go back to the specific part of the lesson
+4. Use the 5 questions framework
+5. Tell my tutor specifically where I'm stuck
+6. Ask for a hint — not the answer
+
+Golden rule:
+Struggle first → then ask for help
+The struggle IS the learning
+
