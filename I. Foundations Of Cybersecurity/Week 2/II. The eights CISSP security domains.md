@@ -138,3 +138,37 @@ what you're containing
 5. Document why wrong access existed
 6. Fix the PROCESS that caused it ← most important
 7. Schedule regular audits going forward
+
+## Change Healthcare — Complete Domain Analysis
+
+Failed Domains (6 total):
+
+Domain 1 (Risk Management)
+→ Known ransomware risk not properly assessed
+→ No adequate business continuity plan
+
+Domain 3 (Architecture) ← root cause
+→ MFA not enabled on critical system
+→ One missing control = entire breach
+
+Domain 4 (Network Security)
+→ No network segmentation
+→ Attackers moved freely for days
+→ Lateral movement undetected
+
+Domain 5 (IAM)
+→ Stolen credentials gave full system access
+→ No second verification factor required
+
+Domain 6 (Assessment)
+→ Regular testing would have found MFA gap
+→ Penetration testing never flagged it
+
+Domain 7 (Security Operations)
+→ No 24/7 monitoring detected intrusion
+→ Days passed before breach discovered
+
+Key lesson:
+Real breaches = multiple domain failures together
+Security = team effort across all 8 domains
+One missing control (MFA) triggered 6 domain failures
