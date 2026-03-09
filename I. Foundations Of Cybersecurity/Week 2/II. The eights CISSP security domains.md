@@ -90,3 +90,51 @@ Domain 5 → WHO accesses what (IAM)
 Domain 6 → IS it working (testing + audits)
 Domain 7 → WHAT when it fails (operations)
 Domain 8 → HOW we build secure software (SDLC)
+
+
+## Domain 5 — Additional Details
+
+### Offboarding Process (critical Domain 5 task)
+When employee leaves → immediately:
+→ Disable login credentials
+→ Revoke keycard access
+→ Remove from all systems
+→ Retrieve company devices
+
+Real example: Cisco 2020
+→ Former employee used active credentials
+   months after leaving
+→ Deleted 456 VMs, $2.4M damage
+→ Pure Domain 5 offboarding failure
+
+## Domain 8 — Shift Left Security
+Move security EARLIER in development timeline
+Design → Build → Test → Launch → Maintain
+  ↑
+Start security HERE
+
+Cost of fixing security bugs:
+→ Design phase: $1
+→ Development: $10
+→ After launch: $100
+→ After breach: $1,000+
+
+## Domain 7 — Correct Incident Response Order
+❌ Wrong: block immediately without understanding
+✅ Correct:
+1. Observe → gather information first
+2. Assess → understand the threat level
+3. Contain → block based on findings
+4. Investigate → understand full scope
+
+Never contain before you understand
+what you're containing
+
+## Domain 6 — Access Rights Audit Process
+1. Pull list of all users with access
+2. Compare against approved access list
+3. Identify unauthorized users
+4. Revoke access immediately
+5. Document why wrong access existed
+6. Fix the PROCESS that caused it ← most important
+7. Schedule regular audits going forward
