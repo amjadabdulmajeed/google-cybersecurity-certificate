@@ -47,3 +47,46 @@ Solutions:
 4. Prevent → implement NAC + employee training
 
 Key insight: One incident spans multiple domains
+
+
+## CISSP Domains 5-8
+
+### Domain 5 — Identity and Access Management (IAM)
+Focus: controlling WHO accesses WHAT
+Key principle: Least Privilege
+→ access only what's needed for the job
+Examples: keycards, login permissions,
+network access levels
+Defense against: internal threats
+
+### Domain 6 — Security Assessment and Testing
+Focus: verifying security controls work
+Key tool: Security Audit
+→ reviews access, controls, compliance gaps
+Examples: auditing user permissions regularly
+Think: quality control of cybersecurity
+Connection: Equifax needed better Domain 6
+
+### Domain 7 — Security Operations
+Focus: responding when security fails
+Key principle: contain first, investigate second
+Examples: responding to unknown device alerts
+Connection: Sean's advice = Domain 7 thinking
+
+### Domain 8 — Software Development Security
+Focus: building security INTO software
+Key principle: Secure by Design
+→ security built in from day one
+→ cheaper + safer than adding it later
+Examples: advising on password policies,
+secure coding practices in SDLC
+
+## Complete Domain Framework:
+Domain 1 → WHY we protect (risk + goals)
+Domain 2 → WHAT we protect (assets)
+Domain 3 → HOW we build protection (architecture)
+Domain 4 → WHERE we protect (networks)
+Domain 5 → WHO accesses what (IAM)
+Domain 6 → IS it working (testing + audits)
+Domain 7 → WHAT when it fails (operations)
+Domain 8 → HOW we build secure software (SDLC)
