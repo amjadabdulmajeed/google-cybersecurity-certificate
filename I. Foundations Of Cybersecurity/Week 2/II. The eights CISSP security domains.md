@@ -172,3 +172,24 @@ Key lesson:
 Real breaches = multiple domain failures together
 Security = team effort across all 8 domains
 One missing control (MFA) triggered 6 domain failures
+## Defense in Depth
+
+Never rely on single security control
+Build multiple overlapping layers
+
+Example — what Change Healthcare needed:
+Layer 1: Strong passwords
+Layer 2: MFA ← was missing, caused everything
+Layer 3: Network segmentation
+Layer 4: 24/7 SOC monitoring
+Layer 5: Regular penetration testing
+Layer 6: Business continuity plan
+
+If Layer 2 existed:
+→ stolen password = useless
+→ chain reaction never starts
+→ 6 domain failures never happen
+
+Key principle:
+"Security is only as strong as
+its weakest single point"
