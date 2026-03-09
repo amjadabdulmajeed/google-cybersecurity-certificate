@@ -23,3 +23,27 @@ Firewall = monitors + filters network traffic
 Focus: securing networks and communications
 Examples: preventing unsecured WiFi use
 Risk: Man-in-the-Middle attacks on public WiFi
+
+## Domain Details — Additional Notes
+
+### Domain 1 triggers:
+→ Laws change (HIPAA, GDPR, PCI DSS)
+→ New business operations begin
+→ Security goals need redefining
+Domain 1 = the "WHY" behind everything
+
+### Domain 2 — Data Remanence
+Residual data remaining after deletion
+Simple delete = NOT enough
+Solutions:
+→ Professional wiping tools (DoD standard)
+→ Physical destruction (shredding)
+→ Degaussing (magnetic erasure)
+
+### Domain 4 — Unauthorized Device Response
+1. Detect → SIEM alerts on unknown devices
+2. Investigate → identify devices and access
+3. Respond → block unauthorized devices
+4. Prevent → implement NAC + employee training
+
+Key insight: One incident spans multiple domains
