@@ -193,3 +193,22 @@ If Layer 2 existed:
 Key principle:
 "Security is only as strong as
 its weakest single point"
+
+## Defense in Depth — Real World Analogy
+
+Wealthy person protecting gold at home:
+Wall + gate → Firewall (perimeter defense)
+Guard dogs → IDS/IPS (active threat detection)
+Locked gate → MFA (identity verification)
+Burglar alarm → SIEM (automated alerting)
+Security cameras → SOC monitoring (Domain 7)
+Steel safe → Data encryption (last line of defense)
+
+Key principle:
+Each layer assumes the previous WILL be breached
+Goal = not "prevent everything"
+Goal = "limit damage when breach occurs"
+
+Professional mindset:
+❌ "Enough security = nothing gets through"
+✅ "Assume breach. Minimize damage."
