@@ -72,3 +72,30 @@ With compliance framework (HIPAA/GDPR):
 → Cannot be skipped without massive fines
 → Business goal (avoid fines) now aligns
   with security goal (implement controls)
+
+## Blast Radius Limitation
+
+Blast radius = how much damage after breach
+
+RBAC limits blast radius:
+→ stolen credentials only access
+  what that role is permitted to see
+→ attacker cannot reach beyond role boundary
+
+Ship analogy:
+No RBAC = ship with no compartments
+         one hole = entire ship sinks
+RBAC = ship with compartments
+       one hole = one section floods
+       rest of ship survives
+
+Change Healthcare — missing layers:
+Layer 1: MFA → missing ❌ (let attacker in)
+Layer 2: RBAC → missing ❌ (no access limits)
+Layer 3: Network segmentation → missing ❌
+Layer 4: SIEM/SOC monitoring → missing ❌
+Result: 6TB stolen, $22M ransom, 
+        largest healthcare breach in US history
+
+Lesson: Each layer assumes previous WILL fail
+        = Defense in Depth
