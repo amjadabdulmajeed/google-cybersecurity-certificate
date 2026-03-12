@@ -38,3 +38,37 @@ CISSP Domains → WHO protects it
 Frameworks → HOW protection is structured
 Controls → SPECIFIC TOOLS used
 Together = complete security posture
+
+
+## Security Frameworks and Controls — Key Insights
+
+### RBAC — Role-Based Access Control
+Access granted based on job role not individual
+Example:
+→ Reception: name + phone number only
+→ Doctor: full patient records
+Enforces: Least Privilege automatically
+Domain: 5 (IAM)
+
+### 3 Types of Controls
+Technical → automated tools
+            (MFA, firewall, SIEM alerts)
+Administrative → rules and policies
+                 (password complexity rules)
+Physical → physical barriers
+           (keycard, security camera)
+
+### Why Security Lifecycle Never Stops
+1. Attackers constantly evolve methods
+2. Laws and regulations change
+3. New technology creates new risks
+Must evolve with all three simultaneously
+
+### How Frameworks Fix Misaligned Incentives
+Without framework:
+→ Security = IT recommendation (easy to ignore)
+With compliance framework (HIPAA/GDPR):
+→ Security = legal requirement
+→ Cannot be skipped without massive fines
+→ Business goal (avoid fines) now aligns
+  with security goal (implement controls)
