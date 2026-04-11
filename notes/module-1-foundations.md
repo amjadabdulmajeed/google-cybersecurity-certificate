@@ -113,3 +113,18 @@ IDS (detects) → IPS (blocks automatically)
    Past attack → Digital Forensics investigates
 
 Key insight: Tools detect. Humans decide.
+
+## Why History Matters in Cybersecurity
+
+Pattern recognition — the most valuable analyst skill
+Built by studying past attacks, not reading manuals
+
+History → recognize attack patterns → faster response
+No history → starting from zero → slower response
+                                 → more damage
+
+Real example:
+WannaCry 2017 → taught analysts ransomware patterns
+Change Healthcare 2024 → analysts recognized patterns
+                         from 2017 and responded faster
+                         
