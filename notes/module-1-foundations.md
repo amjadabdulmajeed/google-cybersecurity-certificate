@@ -127,4 +127,24 @@ Real example:
 WannaCry 2017 → taught analysts ransomware patterns
 Change Healthcare 2024 → analysts recognized patterns
                          from 2017 and responded faster
-                         
+
+## Building Pattern Recognition — My Weekly Habit
+
+Every week:
+1. Read 1 real security incident → apply 5 questions
+2. TryHackMe rooms → 1 sentence summary each
+3. Watch 1 YouTube security breakdown → apply 5 questions
+4. Browse MITRE ATT&CK occasionally
+
+The 5 Questions For Every Incident:
+1. How did attacker get in?
+2. What did they do once inside?
+3. Which CIA triad principle was attacked?
+4. What security control failed?
+5. What could have prevented it?
+
+Resources:
+- krebsonsecurity.com
+- thehackernews.com
+- attack.mitre.org
+- YouTube: NetworkChuck, John Hammond, Simply Cyber
