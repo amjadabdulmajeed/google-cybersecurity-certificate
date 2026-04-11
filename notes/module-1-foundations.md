@@ -77,3 +77,29 @@
 - GDPR → European data protection
 - HIPAA → US healthcare data
 - PCI DSS → Payment card data
+
+  ## IDS vs IPS — Critical Difference
+IDS (Intrusion Detection System)
+→ Monitors network traffic
+→ ALERTS analyst when suspicious activity found
+→ Does NOT block anything
+
+IPS (Intrusion Prevention System)  
+→ Monitors network traffic
+→ Automatically BLOCKS suspicious activity
+→ AND alerts analyst
+
+Memory trick:
+Detection = tells you
+Prevention = stops it
+
+## Identity Theft
+Primary concern when PII/SPII is stolen
+→ Criminal impersonates victim for financial gain
+→ Can take years to recover from
+
+## Key Compliance Laws
+GDPR → protects European citizens' data
+HIPAA → protects US medical/health data
+PCI DSS → protects payment card data
+Violation = massive fines
