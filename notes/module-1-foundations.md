@@ -56,3 +56,24 @@
 
 ### Connection to CIA Triad:
 - PII/SPII protection = primarily Confidentiality
+
+## Why Data Breaches Hurt Organizations
+
+1. Human impact
+   → PII/SPII stolen → identity theft risk for real people
+
+2. Reputation damage
+   → Users lose trust → brand damaged → less business
+
+3. Financial damage
+   → Ransom payments + lost customers + regulatory fines
+
+## Real Fine Examples:
+- Equifax 2017 → $575M fine (147M SSNs exposed)
+- British Airways 2019 → $230M fine (PII breach)
+- Meta 2023 → $1.3B fine (GDPR violation)
+
+## Key Compliance Laws (learn more in Course 2):
+- GDPR → European data protection
+- HIPAA → US healthcare data
+- PCI DSS → Payment card data
